@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <title>Webpage</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <div class="main2">
+      <div class="main">
+        <div class="cat-n-dog-logo-copy">
+          <img src="imgs/Cat-N-Dog-Logo copy (1).png" />
+        </div>
+        <div class="background-container">
+          <div class="background1">
+            <img src="imgs/Background (1).png" />
+          </div>
+          <div class="background1">
+            <img src="imgs/Background.png" />
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <div class="dotnav">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+          </div>
+        </div>
+        <div class="menu">
+          <div class="about"><p>About</p></div>
+          <div class="blog"><p>Blog</p></div>
+          <div class="careers"><p>Careers</p></div>
+          <div class="contact"><p>Contact</p></div>
+        </div>
+        <div class="bullets">
+          <div class="type-text">Type Text</div>
+          <div class="lorem-ipsum-is-simpl">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </div>
+        </div>
+        <div class="social">
+          <img class="facebook" src="./imgs/Facebook.png" />
+          <img class="instagram" src="./imgs/Instagram.png" />
+          <img class="linkedin" src="./imgs/Linkedin.png" />
+          <img class="twitter" src="./imgs/Twitter.png" />
+        </div>
+        <div class="title">
+          <div class="lorem-ipsum-is-simp">
+            <p>Lorem Ipsum is simply</p>
+            <p>dummy text of the printing</p>
+            <p>and typesetting industry.</p>
+          </div>
+          <div class="lorem-ipsum-has-been">
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.
+          </div>
+          <div class="buttons">
+            <div class="google-play-badge">
+              <img src="./imgs/google-play-badge.png" />
+            </div>
+            <div class="app-store-badge">
+              <img src="./imgs/AppStoreBadge.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("background1");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace("dot active", "dot");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script> -->
+    <script src="external.js"></script>
+  </body>
+</html>
